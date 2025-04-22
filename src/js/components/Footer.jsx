@@ -1,5 +1,15 @@
-export const Footer = () => {
+const Footer = () => {
     return (
-        <p>Footer Area</p>
+
+        <>
+        <div className="container">
+            <div className="navbar navbar-dark bg-dark text-light">
+            <p>Hello</p>
+            </div>
+            
+        </div>
+        </>
     );
 }
+
+export default Footer;
