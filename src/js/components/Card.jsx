@@ -1,4 +1,4 @@
-export const Card = (props) => {
+const Card = () => {
    return (
       <div className="card" style="width: 18rem;">
 
@@ -13,3 +13,5 @@ export const Card = (props) => {
       </div>
    );
 }
+
+export default Card;
