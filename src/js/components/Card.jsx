@@ -1,15 +1,15 @@
 export const Card = (props) => {
    return (
-      <div class="card" style="width: 18rem;">
+      <div className="card" style="width: 18rem;">
 
-         {/* <img src={props.imgSrc} class="card-img-top" alt="...">
+         <img src="https://placehold.co/500x325" class="card-img-top" alt="..."/>
 
-         <div class="card-body">
-            <h5 class="card-title">{props.cardTitle}</h5>
+         <div className="card-body">
+            <h5 className="card-title">Card title</h5>
           
-            <p class="card-text">{props.cardText}</p>
-            <a href="#" class="btn btn-primary">{props.cardBtn}</a>
-         </div> */}
+            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consequatur quas labore qui incidunt.</p>
+            <a href="#" className="btn btn-primary">Find Out More!</a>
+         </div>
       </div>
    );
 }
