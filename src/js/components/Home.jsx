@@ -1,11 +1,12 @@
 import React from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+
 
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import Hero from "./Hero";
+import Card from "./Card";
 
 //create your first component
 const Home = () => {
@@ -14,8 +15,9 @@ const Home = () => {
 			<NavBar/>
 			<div className="container">
 			<Hero/>
-			{/* <Card/> */}
+			
 			</div>
+			{/* <Card/> */}
 			<Footer/>
 		</>
 	);
