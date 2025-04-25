@@ -2,7 +2,7 @@ export const Card = (props) => {
    return (
       <div className="card" style="width: 18rem;">
 
-         <img src="https://placehold.co/500x325" class="card-img-top" alt="..."/>
+         <img src="https://placehold.co/500x325" class="card-img-top" alt="500 by 325 placeholder"/>
 
          <div className="card-body">
             <h5 className="card-title">Card title</h5>
