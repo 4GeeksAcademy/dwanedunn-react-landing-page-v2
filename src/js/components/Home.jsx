@@ -14,7 +14,7 @@ const Home = () => {
 			<NavBar/>
 			<div className="container">
 			<Hero/>
-			<Card/>
+			{/* <Card/> */}
 			</div>
 			<Footer/>
 		</>
