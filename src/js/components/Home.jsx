@@ -14,37 +14,6 @@ const Home = () => {
 			<NavBar/>
 			<div className="container">
 			<Hero/>
-			const cards = [{
-				title: 'Card Title 1',
-				imageSrc: "",
-				content: 'lormem10',
-				button: 'Click Me',
-			},
-			{
-				title: 'Card Title 2',
-				imageSrc: ""
-				content: 'lormem10',
-				button: 'Click Me',
-			},
-			{
-				title: 'Card Title 3',
-				imageSrc: "",
-				content: 'lormem10',
-				button: 'Click Me',
-			},
-			{
-				title: 'Card Title 4',
-				imageSrc: "",
-				content: 'lormem10',
-				button: 'Click Me',
-			},
-			{
-				title: 'Card Title 5',
-				imageSrc: "",
-				content: 'lormem10',
-				button: 'Click Me',
-			}]
-
 			</div>
 			<Footer/>
 		</>
