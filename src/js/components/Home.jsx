@@ -15,9 +15,12 @@ const Home = () => {
 			<NavBar/>
 			<div className="container">
 			<Hero/>
-			
 			</div>
-			{/* <Card/> */}
+			
+			<Card props = { imageURL ="", imageALT-"", cardTitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, facere?",
+				content = "Lorem",
+				btnText = "Find out more!" } />
+
 			<Footer/>
 		</>
 	);
