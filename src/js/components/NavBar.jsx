@@ -1,13 +1,17 @@
 const NavBar = () => {
     return (
                 <>
-                    {/* <div className="container-fluid m-0"> */}
-                        <nav class="navbar navbar-dark bg-dark">
-                            <div class="container-fluid">
-                                <a class="navbar-brand" href="#">Main Navbar</a>
+                    <nav className="navbar navbar-dark bg-dark">
+                        <div className="container">
+                            <a className="navbar-brand" href="#">Main Navbar</a>
+                            <div className="d-flex align-items-center justify-content-around gap-2">
+                                <a className="text-decoration-none text-white" href="#">Home</a>
+                                <a className="text-decoration-none text-white" href="#">About</a>
+                                <a className="text-decoration-none text-white" href="#">Services</a>
+                                <a className="text-decoration-none text-white" href="#">Contact</a>
                             </div>
-                        </nav>
-                    {/* </div> */}
+                        </div>
+                    </nav>
                 </>
             );
 }
