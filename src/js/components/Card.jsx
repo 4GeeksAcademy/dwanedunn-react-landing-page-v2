@@ -1,14 +1,15 @@
-const Card = () => {
+const Card = (props) => {
    return (
-      <div className="card" style="width: 18rem;">
-
-         <img src="https://placehold.co/500x325" class="card-img-top" alt="500 by 325 placeholder"/>
+      // style="width: 18rem;"
+      <div className="card" >
+         {/* "https://placehold.co/500x325"
+         "500 by 325 placeholder" */}
+         <img src={props.imageURL} className="card-img-top" alt={props.imageAlt}  />
 
          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-          
-            <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus consequatur quas labore qui incidunt.</p>
-            <a href="#" className="btn btn-primary">Find Out More!</a>
+            <h5 className="card-title">{props.cardTitle}</h5>
+            <p className="card-text">{props.content}</p>
+            <a href="#" className="btn btn-primary">{props.btnText}</a>
          </div>
       </div>
    );
