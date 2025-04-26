@@ -12,35 +12,35 @@ const Home = () => {
   const cards = [
     {
       imageURL: "https://placehold.co/500x325",
-      imageAlt: "place holder",
+      imageAlt: "place holder imgage",
       title: "Card Title",
-      cardContent:
+      content:
         "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta officiis enim repudiandae!",
-      cardBtnText: "Find Out More!",
+      btnText: "Find Out More!",
     },
     {
       imageURL: "https://placehold.co/500x325",
-      imageAlt: "place holder",
+      imageAlt: "place holder imgage",
       title: "Card Title",
-      cardContent:
+      content:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sed sequi tempora?",
-      cardBtnText: "Find Out More!",
+      btnText: "Find Out More!",
     },
     {
       imageURL: "https://placehold.co/500x325",
-      imageAlt: "place holder",
+      imageAlt: "place holder imgage",
       title: "Card Title",
-      cardcontent:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit voluptatibus, reiciendis molestiae reprehenderit minus qui.",
-      cardBtnText: "Find Out More!",
+      content:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis molestiae.",
+      btnText: "Find Out More!",
     },
     {
       imageURL: "https://placehold.co/500x325",
-      imageAlt: "place holder",
+      imageAlt: "place holder imgage",
       title: "Card Title",
-      cardContent:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestiae sunt blanditiis maiores tenetur, illo laboriosam dicta eligendi hic illum.",
-      cardBtnText: "Find Out More!",
+      content:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis molestiae.",
+      btnText: "Find Out More!",
     },
   ];
   return (
@@ -55,9 +55,9 @@ const Home = () => {
             <Card
               imageURL={card.imageURL}
               imageAlt={card.imageAlt}
-              cardTitle={card.cardTitle}
-              cardContent={card.cardcontent}
-              cardBtnText={card.cardBtnText}
+              cardTitle={card.title}
+              cardContent={card.content}
+              cardBtnText={card.btnText}
             />
           </div>
         ))}
