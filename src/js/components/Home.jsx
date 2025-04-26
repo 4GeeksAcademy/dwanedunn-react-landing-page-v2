@@ -11,25 +11,25 @@ import Card from "./Card";
 const Home = () => {
   const cards = [
     {
-      imageURL: "https://via.placeholder.com/150",
+      imageURL: "https://placehold.co/500x325",
       imageAlt: "place holder",
       title: "First Title",
       content: "First Content",
     },
     {
-      imageURL: "https://via.placeholder.com/150",
+      imageURL: "https://placehold.co/500x325",
       imageAlt: "place holder",
       title: "second Title",
       content: "Second Content",
     },
     {
-      imageURL: "https://via.placeholder.com/150",
+      imageURL: "https://placehold.co/500x325",
       imageAlt: "place holder",
       title: "third Title",
       content: "third Content",
     },
     {
-      imageURL: "https://via.placeholder.com/150",
+      imageURL: "https://placehold.co/500x325",
       imageAlt: "place holder",
       title: "Fourth Title",
       content: "fourth Content",
