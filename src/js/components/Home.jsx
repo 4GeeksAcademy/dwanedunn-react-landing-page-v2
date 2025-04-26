@@ -16,11 +16,7 @@ const Home = () => {
 			<div className="container">
 			<Hero/>
 			</div>
-			
-			{/* <Card props = { imageURL ="", imageALT-"", cardTitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, facere?",
-				content = "Lorem",
-				btnText = "Find out more!" } /> */}
-
+			<Card/>
 			<Footer/>
 		</>
 	);
