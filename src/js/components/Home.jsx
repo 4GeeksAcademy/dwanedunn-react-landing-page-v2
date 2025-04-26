@@ -13,26 +13,34 @@ const Home = () => {
     {
       imageURL: "https://placehold.co/500x325",
       imageAlt: "place holder",
-      title: "First Title",
-      content: "First Content",
+      title: "Card Title",
+      cardContent:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam soluta officiis enim repudiandae!",
+      cardBtnText: "Find Out More!",
     },
     {
       imageURL: "https://placehold.co/500x325",
       imageAlt: "place holder",
-      title: "second Title",
-      content: "Second Content",
+      title: "Card Title",
+      cardContent:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum sed sequi tempora?",
+      cardBtnText: "Find Out More!",
     },
     {
       imageURL: "https://placehold.co/500x325",
       imageAlt: "place holder",
-      title: "third Title",
-      content: "third Content",
+      title: "Card Title",
+      cardcontent:
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit voluptatibus, reiciendis molestiae reprehenderit minus qui.",
+      cardBtnText: "Find Out More!",
     },
     {
       imageURL: "https://placehold.co/500x325",
       imageAlt: "place holder",
-      title: "Fourth Title",
-      content: "fourth Content",
+      title: "Card Title",
+      cardContent:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis molestiae sunt blanditiis maiores tenetur, illo laboriosam dicta eligendi hic illum.",
+      cardBtnText: "Find Out More!",
     },
   ];
   return (
@@ -41,14 +49,15 @@ const Home = () => {
       <div className="container">
         <Hero />
       </div>
-      <div className="d-flex">
+      <div className="container-fluid d-flex gap-4">
         {cards.map((card, index) => (
-          <div key={index}>
+          <div className="border border-danger" key={index}>
             <Card
               imageURL={card.imageURL}
               imageAlt={card.imageAlt}
-              cardTitle={card.title}
-              content={card.content}
+              cardTitle={card.cardTitle}
+              cardContent={card.cardcontent}
+              cardBtnText={card.cardBtnText}
             />
           </div>
         ))}
