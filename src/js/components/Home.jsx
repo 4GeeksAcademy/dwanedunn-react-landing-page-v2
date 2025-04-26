@@ -38,8 +38,7 @@ const Home = () => {
       imageURL: "https://placehold.co/500x325",
       imageAlt: "place holder imgage",
       title: "Card Title",
-      content:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis molestiae.",
+      content: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
       btnText: "Find Out More!",
     },
   ];
