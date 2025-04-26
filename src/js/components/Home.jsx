@@ -17,9 +17,9 @@ const Home = () => {
 			<Hero/>
 			</div>
 			
-			<Card props = { imageURL ="", imageALT-"", cardTitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, facere?",
+			{/* <Card props = { imageURL ="", imageALT-"", cardTitle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, facere?",
 				content = "Lorem",
-				btnText = "Find out more!" } />
+				btnText = "Find out more!" } /> */}
 
 			<Footer/>
 		</>
