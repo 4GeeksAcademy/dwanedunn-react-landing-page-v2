@@ -42,26 +42,26 @@ const Home = () => {
       btnText: "Find Out More!",
     },
   ];
+
   return (
     <>
       <NavBar />
       <div className="container">
         <Hero />
       </div>
-      <div className="container d-flex gap-4">
+      <div className="container d-flex justify-content-evenly">
         {cards.map((card, index) => (
           <div key={index}>
             <Card
               imageURL={card.imageURL}
               imageAlt={card.imageAlt}
-              titleitle={card.title}
+              title={card.title}
               content={card.content}
               btnText={card.btnText}
             />
           </div>
         ))}
       </div>
-
       <Footer />
     </>
   );
