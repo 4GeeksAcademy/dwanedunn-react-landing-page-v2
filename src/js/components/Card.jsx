@@ -6,7 +6,7 @@ const Card = ({ imageURL, imageAlt, title, content, btnText }) => {
         <div className="card-body text-center p-0 d-flex flex-column justify-content-between">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{content}</p>
-          <div className="w-100 d-flex p-3 justify-content-center bg-light">
+          <div className="w-100 d-flex p-2 justify-content-center bg-light border border-light">
             <a href="#" className="btn btn-primary">
               {btnText}
             </a>
