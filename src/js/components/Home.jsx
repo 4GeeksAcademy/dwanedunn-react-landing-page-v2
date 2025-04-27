@@ -48,15 +48,15 @@ const Home = () => {
       <div className="container">
         <Hero />
       </div>
-      <div className="container-fluid d-flex gap-4">
+      <div className="container d-flex gap-4">
         {cards.map((card, index) => (
-          <div className="border border-danger" key={index}>
+          <div key={index}>
             <Card
               imageURL={card.imageURL}
               imageAlt={card.imageAlt}
-              cardTitle={card.title}
-              cardContent={card.content}
-              cardBtnText={card.btnText}
+              titleitle={card.title}
+              content={card.content}
+              btnText={card.btnText}
             />
           </div>
         ))}
